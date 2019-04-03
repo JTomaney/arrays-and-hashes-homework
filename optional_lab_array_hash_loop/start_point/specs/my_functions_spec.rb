@@ -56,21 +56,21 @@ class My_Functions < MiniTest::Test
 
   ################################################################
 
-  # # Write a function that takes in a (non-nested) hash
-  # # It should return the first key from the hash
-  #
-  # def test_get_first_key
-  #   # arrange
-  #   wallets = {
-  #     "Alice" => 12,
-  #     "Bob"  => 10,
-  #     "Charlie"  => 1356,
-  #     "Dave" => 1
-  #   }
-  #   # act
-  #   result = get_first_key( wallets )
-  #   # assert
-  #   assert_equal( 'Alice', result )
-  # end
+  # Write a function that takes in a (non-nested) hash
+  # It should return the first key from the hash
+
+  def test_get_first_key
+    # arrange
+    wallets = {
+      "Alice" => 12,
+      "Bob"  => 10,
+      "Charlie"  => 1356,
+      "Dave" => 1
+    }
+    # act
+    result = get_first_key( wallets )
+    # assert
+    assert_equal( 'Alice', result )
+  end
 
 end

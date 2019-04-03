@@ -16,3 +16,8 @@ def find_item(array, item)
   end
   return false
 end
+
+def get_first_key(hash)
+  first_key = hash.to_a[0][0]
+  return first_key
+end
