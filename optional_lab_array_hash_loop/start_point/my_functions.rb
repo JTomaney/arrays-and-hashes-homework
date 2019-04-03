@@ -7,3 +7,12 @@ def sum_array(numbers)
   sum_array_result = numbers.sum
   return sum_array_result
 end
+
+def find_item(array, item)
+  for entry in array
+    if entry == item
+      return true
+    end
+  end
+  return false
+end
